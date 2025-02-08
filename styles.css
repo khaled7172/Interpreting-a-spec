@@ -1,0 +1,116 @@
+.upper_limit{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.signin{
+    border: 3px solid black;
+    width: 75px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.acad{
+    border:3px solid black;
+    padding:5px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+.b2{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+h1{
+    border: 3px solid black;
+    padding: 20px;
+}
+.top-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.norm{
+margin-right:490px;
+}
+.wp{
+    border: 3px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+.main-img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.pars{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 280px;
+margin-right: 150px;
+}
+.mid{
+    width: 80%;
+}
+.references{
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    width:80%;
+    align-items: center;
+
+}
+.logo{
+    border: 6px solid black;
+    display: flex;
+    width: fit-content;
+    margin: 10px;
+}
+.foot{
+    display: flex;
+    width: 50%;
+}
+.contacts{
+    align-items: flex-end;
+    display: flex;
+    margin-left: 30px;
+    padding: 5px;
+}
+.fp{
+    margin-left: 40px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    position: relative;
+    padding-left: 1em;
+}
+ul li::before{
+    content: "-";
+    position: absolute;
+    left: 0;
+    
+}
+@media(max-width:768px) {
+    .foot{
+        width:50%;
+    }
+}
+@media(max-width:480px){
+    .menu{
+        width: 25%;
+    }
+}
